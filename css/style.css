@@ -1,0 +1,380 @@
+body {
+    font-family: "Open Sans";
+}
+
+.no-padding {
+    padding: 0;
+}
+
+.no-margin {
+    margin: 0;
+}
+
+
+/*debut menu de navigation*/
+
+body .navbar-default {
+    background-color: #222;
+    border: none;
+}
+
+.navbar-default .navbar-nav li a,
+.navbar-default .navbar-nav li a:visited {
+    color: white;
+}
+
+.navbar-default .navbar-nav li a:hover,
+.navbar-default .navbar-nav .open a:focus,
+.navbar-default .navbar-nav li a:visited {
+    background-color: #353535;
+    color: white;
+}
+
+nav .button-search {
+    color: #858585;
+    background-color: transparent;
+    border: none;
+    position: absolute;
+    bottom: 24px;
+    left: 78%;
+    border-radius: 0px;
+    width: 17%;
+}
+
+nav .button-search:hover {
+    background-color: transparent;
+}
+
+nav .container-fluid .sociaux li .facebook,
+nav .container-fluid .sociaux li .twitter,
+nav .container-fluid .sociaux li .google-plus {
+    background-color: transparent;
+    border: none;
+    width: 37px;
+    height: 37px;
+    border-radius: 50px;
+    padding-top: 10px;
+    margin: 21px 16px 0 0;
+}
+
+nav .container-fluid .facebook i,
+nav .container-fluid .twitter i,
+nav .container-fluid .google-plus i {
+    font-size: 20px;
+}
+
+nav .container-fluid .facebook,
+nav .container-fluid .twitter {
+    padding: 10px;
+}
+
+nav .container-fluid .google-plus {
+    padding: 5px;
+}
+
+body nav .container-fluid .facebook:hover {
+    background-color: #3b5997;
+}
+
+body nav .container-fluid .twitter:hover {
+    background-color: #1da1f2;
+}
+
+body nav .container-fluid .google-plus:hover {
+    background-color: #dd4e42;
+}
+
+body nav .nav li a {
+    padding: 30px 27px;
+}
+
+nav .dropdown-menu {
+    background-color: #222;
+    border: none;
+    padding: 0;
+}
+
+nav .nav-justified {
+    width: auto;
+}
+
+.container-fluid .navbar-brand {
+    padding: 25px 15px;
+}
+
+.connexion {
+    height: 230px;
+    min-width: 300px;
+    padding: 20px;
+}
+
+.recherche {
+    margin: 23px 0;
+}
+
+.recherche input,
+.connexion input {
+    background-color: #131313;
+    border: 2px solid #858585;
+}
+
+.recherche input:focus,
+.recherche input:hover,
+.connexion input:focus,
+.connexion input:hover {
+    background-color: white;
+    border: 2px solid #858585;
+}
+
+
+/*fin menu de navigation*/
+
+
+/*debut header*/
+
+header {
+    background-image: url(../img/header/1.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    margin-top: 75px;
+    color: white;
+    padding: 200px 0;
+    font-size: 50px;
+    text-shadow: 4px 4px 5px rgba(0, 0, 0, 0.5);
+    font-family: "Kaushan Script";
+}
+
+header h3 {
+    font-size: 50px;
+}
+
+header h2 {
+    font-size: 100px;
+}
+
+
+/*fin header*/
+
+
+/*debut slider*/
+
+#slider {
+    background: url(../img/slider/1-flou.jpg) no-repeat;
+    height: 400px;
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    padding: 80px 0;
+}
+
+#slider:hover {
+    background: url(../img/slider/1.jpg) no-repeat;
+    height: 400px;
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    padding: 80px 0;
+}
+
+#slider h2 {
+    color: white;
+    font-size: 30px;
+    text-shadow: 4px 4px 5px rgba(0, 0, 0, 0.5);
+    margin-bottom: 25px;
+    font-family: "Kaushan Script";
+}
+
+#slider .contour-input {
+    background: rgba(0, 0, 0, .15);
+    padding: 10px;
+    border-radius: 15px;
+}
+
+#slider .btn {
+    color: #333;
+    background-color: transparent;
+    border: none;
+    position: absolute;
+    bottom: 10.99px;
+    left: 91%;
+    border-left: 1px solid #CCC;
+    border-radius: 0px;
+}
+
+
+/*fin slider*/
+
+
+/*debut plat accueil*/
+
+hr {
+    border: 2px solid white;
+    width: 50%;
+    opacity: 0.2;
+}
+
+.background-rouge {
+    background: #F44336;
+}
+
+.background-rose {
+    background: #E91E63;
+}
+
+.background-mauve {
+    background: #9C27B0;
+}
+
+.background-bleu-f {
+    background: #3F51B5;
+}
+
+.background-bleu-c {
+    background: #2196F3;
+}
+
+.background-vert {
+    background: #4CAF50;
+}
+
+.background-orange {
+    background: #FF9800;
+}
+
+.background-marron {
+    background: #795548;
+}
+
+.background-gris {
+    background: #9E9E9E;
+}
+
+#plat-accueil p {
+    text-align: justify;
+    padding: 20px;
+    color: white;
+    height: 180px;
+}
+
+#plat-accueil h3 {
+    color: white;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+#plat-accueil .hauteur-plat {
+    height: 700px;
+}
+
+#plat-accueil .btn-default {
+    color: white;
+    border: 1px solid white;
+}
+
+#plat-accueil .btn-default:hover {
+    color: black;
+    background-color: white;
+}
+
+
+/*fin plat accueil*/
+
+
+/*debut reseaux sociaux*/
+
+#sociaux-footer {
+    background-image: url(../img/sociaux-footer/1.jpg);
+    background-position: center;
+    background-size: cover;
+    padding: 100px 0;
+    color: white;
+    text-shadow: 4px 4px 5px rgba(0, 0, 0, 0.5);
+}
+
+#sociaux-footer h1 {
+    font-family: "Kaushan Script";
+    margin-bottom: 20px;
+}
+
+#sociaux-footer .facebook {
+    background-color: #3b5997;
+    color: white;
+    border: 1px solid white;
+    margin: 0px 10px;
+}
+
+#sociaux-footer .facebook:hover {
+    background-color: #203a6f;
+    color: white;
+    border: 1px solid white;
+    margin: 0px 10px;
+}
+
+#sociaux-footer .twitter {
+    background-color: #1da1f2;
+    color: white;
+    border: 1px solid white;
+    margin: 0px 10px;
+}
+
+#sociaux-footer .twitter:hover {
+    background-color: #1181c6;
+    color: white;
+    border: 1px solid white;
+    margin: 0px 10px;
+}
+
+#sociaux-footer .google-plus {
+    background-color: #dd4e42;
+    color: white;
+    border: 1px solid white;
+    margin: 0px 10px;
+}
+
+#sociaux-footer .google-plus:hover {
+    background-color: #ae2e23;
+    color: white;
+    border: 1px solid white;
+    margin: 0px 10px;
+}
+
+
+/*fin reseaux sociaux*/
+
+
+/*debut return top*/
+
+#top .fa {
+    font-size: 40px;
+    position: relative;
+    left: 50%;
+    bottom: 0px;
+    color: #858585;
+}
+
+.return-top {
+    background-color: #222;
+    padding: 50px 0 0 0;
+}
+
+
+/*fin return top*/
+
+
+/*debut footer*/
+
+footer {
+    background-color: #222222;
+    padding: 70px 0;
+    color: #858585;
+}
+
+footer a,
+footer a:hover {
+    text-decoration: none;
+    color: #858585;
+}
+
+
+/*fin footer*/
