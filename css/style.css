@@ -378,3 +378,18 @@ footer a:hover {
 
 
 /*fin footer*/
+
+
+/*
+@media screen and (max-width: 1180px) {
+    .sociaux {
+        visibility: hidden;
+    }
+}
+*/
+
+@media screen and (max-width: 991px) {
+    nav .button-search {
+        bottom: 2px;
+    }
+}
